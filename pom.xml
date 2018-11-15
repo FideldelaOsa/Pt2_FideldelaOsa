@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Pt2_FideldelaOsaProject</module>
-        <module>Pt2_FideldelaOsaWeb</module>
+        <module>project-core</module>
+        <module>project-web</module>
     </modules>
 
     <parent>
@@ -34,6 +34,12 @@
             <artifactId>json-path</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
